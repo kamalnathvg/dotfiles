@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/kamal/.cache/nvim/packer_hererocks/2.1.1719379426/share/lua/5.1/?.lua;/home/kamal/.cache/nvim/packer_hererocks/2.1.1719379426/share/lua/5.1/?/init.lua;/home/kamal/.cache/nvim/packer_hererocks/2.1.1719379426/lib/luarocks/rocks-5.1/?.lua;/home/kamal/.cache/nvim/packer_hererocks/2.1.1719379426/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/kamal/.cache/nvim/packer_hererocks/2.1.1719379426/lib/lua/5.1/?.so"
+local package_path_str = "/Users/kamalnath/.cache/nvim/packer_hererocks/2.1.1713773202/share/lua/5.1/?.lua;/Users/kamalnath/.cache/nvim/packer_hererocks/2.1.1713773202/share/lua/5.1/?/init.lua;/Users/kamalnath/.cache/nvim/packer_hererocks/2.1.1713773202/lib/luarocks/rocks-5.1/?.lua;/Users/kamalnath/.cache/nvim/packer_hererocks/2.1.1713773202/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/kamalnath/.cache/nvim/packer_hererocks/2.1.1713773202/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,108 +76,108 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-buffer"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/cmp-buffer",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-path"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/cmp-path",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   fd = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/fd",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/fd",
     url = "https://github.com/sharkdp/fd"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ripgrep = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/ripgrep",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/ripgrep",
     url = "https://github.com/BurntSushi/ripgrep"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
     url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["tokyonight.nvim"] = {
-    config = { "\27LJ\2\n„\2\0\0\5\0\v\0\0166\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0'\2\1\0B\0\2\1K\0\1\0\19ColorMyPencils\vstyles\rkeywords\1\0\1\vitalic\1\rcomments\1\0\4\rsidebars\tdark\rcomments\0\vfloats\tdark\rkeywords\0\1\0\1\vitalic\1\1\0\4\16transparent\2\vstyles\0\nstyle\nnight\20terminal_colors\2\nsetup\15tokyonight\frequire\0" },
+    config = { "\27LJ\2\n„\2\0\0\5\0\v\0\0166\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0'\2\1\0B\0\2\1K\0\1\0\19ColorMyPencils\vstyles\rkeywords\1\0\1\vitalic\1\rcomments\1\0\4\rsidebars\tdark\rkeywords\0\vfloats\tdark\rcomments\0\1\0\1\vitalic\1\1\0\4\nstyle\nnight\20terminal_colors\2\16transparent\2\vstyles\0\nsetup\15tokyonight\frequire\0" },
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-markdown"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/vim-markdown",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/vim-markdown",
     url = "https://github.com/plasticboy/vim-markdown"
   },
   ["vim-polyglot"] = {
     loaded = true,
-    path = "/home/kamal/.local/share/nvim/site/pack/packer/start/vim-polyglot",
+    path = "/Users/kamalnath/.local/share/nvim/site/pack/packer/start/vim-polyglot",
     url = "https://github.com/sheerun/vim-polyglot"
   }
 }
@@ -185,7 +185,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: tokyonight.nvim
 time([[Config for tokyonight.nvim]], true)
-try_loadstring("\27LJ\2\n„\2\0\0\5\0\v\0\0166\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0'\2\1\0B\0\2\1K\0\1\0\19ColorMyPencils\vstyles\rkeywords\1\0\1\vitalic\1\rcomments\1\0\4\rsidebars\tdark\rcomments\0\vfloats\tdark\rkeywords\0\1\0\1\vitalic\1\1\0\4\16transparent\2\vstyles\0\nstyle\nnight\20terminal_colors\2\nsetup\15tokyonight\frequire\0", "config", "tokyonight.nvim")
+try_loadstring("\27LJ\2\n„\2\0\0\5\0\v\0\0166\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0'\2\1\0B\0\2\1K\0\1\0\19ColorMyPencils\vstyles\rkeywords\1\0\1\vitalic\1\rcomments\1\0\4\rsidebars\tdark\rkeywords\0\vfloats\tdark\rcomments\0\1\0\1\vitalic\1\1\0\4\nstyle\nnight\20terminal_colors\2\16transparent\2\vstyles\0\nsetup\15tokyonight\frequire\0", "config", "tokyonight.nvim")
 time([[Config for tokyonight.nvim]], false)
 
 _G._packer.inside_compile = false
